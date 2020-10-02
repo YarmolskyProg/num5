@@ -1,0 +1,142 @@
+.container{
+    padding: 0 !important;
+}
+*{
+    padding: 0 !important;
+
+}
+@font-face {
+    font-family: "Source Sans Pro"; 
+    src: url("../fonts/SourceSansPro-Regular.ttf"); 
+
+    } 
+    @font-face {
+        font-family: "Quicksand"; 
+        src: url("../fonts/Quicksand-Bold.ttf"); 
+    
+        } 
+        @font-face {
+            font-family: "Source Sans Pro - Semibold"; 
+            src: url("../fonts/SourceSansPro-SemiBold.ttf"); 
+        
+            } 
+        header{
+            padding-top: 20px;
+        }
+
+
+        .logo{
+            display: flex;
+            .lucid{
+                margin: 0;
+                padding: 0;
+                
+            }
+            .onepage{
+                margin: 0;
+                padding: 0;}
+                .logo_left{
+                    display: flex;
+                }
+                .logo_right{
+                    margin-left: 4px;;
+                    display: flex;
+                    align-items: center;
+                }
+        }
+        .navbar-collapse{
+            float: right;
+        }
+        .nav-item{
+            margin-left: 23px;
+            
+        }
+        .wrapper{
+            padding-top: 22px !important;
+              width: 100%;
+              height: 640px;
+        background-image: url("../img/photo.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+
+        }
+.header_cont{
+  
+    .menu{
+
+        display: flex;
+
+    }
+    }
+
+    .navbar{
+        width: 100%;
+
+    justify-content: space-between !important;
+    }
+
+    .navbar-nav{
+        margin-top:-5px ;
+        margin-right:1px;
+        color: #ffffff;
+    }
+
+.nav-link{
+    /* Style for "Home" */
+color: #fffefe;
+font-family: "Source Sans Pro - Semibold";
+font-size: 16px;
+font-weight: 400;
+line-height: 55px;
+color: #ffffff !important;
+}
+.lucid{
+
+
+color: #ffffff;
+font-family: Quicksand;
+font-size: 24px;
+font-weight: 700;
+line-height: 58px;
+text-transform: uppercase;  
+letter-spacing: 0.6px;
+}
+.onepage{
+    /* Style for "onepage th" */
+    line-height: 9px ;
+opacity: 0.3;
+color: #ffffff;
+font-family: "Source Sans Pro";
+font-size: 9px;
+text-transform: uppercase;
+/* Text style for "onepage ," */
+letter-spacing: 1.26px;
+}
+body{
+    
+}
+h6{/* Style for "onepage th" */
+
+    opacity: 0.3;
+    color: #ffffff;
+    font-family: "Source Sans Pro" !important;
+    font-size: 8px !important;
+    font-weight: 400;
+    line-height: 8px !important;
+    text-transform: uppercase;
+    /* Text style for "onepage ," */
+    letter-spacing: 1.26px;
+}
+
+
+
+
+.header_cont_btm{
+    display: flex;
+    width: 100%;
+    margin-top: 41px;
+    padding-right: 10px !important;
+    img{
+        
+    }
+}
