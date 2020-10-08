@@ -6,6 +6,6 @@ app/*
 !app/scss
 !app/img
 !app/js
-app/js/*.js
+!app/js/*.js
 !app/index_.html
 !app/fonts
