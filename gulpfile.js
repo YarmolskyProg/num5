@@ -64,7 +64,7 @@ gulp.task('jsmin', function () {
 gulp.task('htmlmin', function() {
   return gulp.src('app/index.html')
     .pipe(inject(gulp.src(['./build/js/bundle.js','./build/css/style.css'], {read: false}), {relative: false,ignorePath:'build',addRootSlash:false}))
-    // .pipe(htmlmin({ collapseWhitespace: true }))
+    .pipe(htmlmin({ collapseWhitespace: true }))
     .pipe(gulp.dest('build/'));
 });
 
@@ -74,5 +74,5 @@ gulp.task('imgmin',function (){
   .pipe(gulp.dest('build/img'))
 })
 
-gulp.task('default', gulp.series('html','watch'));
+gulp.task('default', gulp.series('sass','html','watch'));
 gulp.task('deploy', gulp.series('cssmin', 'fonts' ,'jsmin','htmlmin', 'imgmin'));
